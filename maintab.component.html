@@ -1,0 +1,32 @@
+<!-- mainbody.component.html -->
+
+<div class="main-body">
+  <!-- Navbar -->
+  <div class="navbar">
+    <div class="navbar-icons">
+      <button mat-icon-button aria-label="Refresh">
+        <mat-icon>refresh</mat-icon>
+      </button>
+      <button mat-icon-button aria-label="Select more">
+        <mat-icon>select_all</mat-icon>
+      </button>
+    </div>
+    <div class="mail-count">20 of 100</div>
+    <div class="navbar-options">
+      <button mat-icon-button aria-label="Move to the left">
+        <mat-icon>keyboard_arrow_left</mat-icon>
+      </button>
+      <button mat-icon-button aria-label="Move to the right">
+        <mat-icon>keyboard_arrow_right</mat-icon>
+      </button>
+    </div>
+  </div>
+
+  <!-- List of Emails -->
+  <div class="email-list">
+    <div class="email-item" *ngFor="let email of emails" (click)="selectEmail(email)">
+      <div class="sender">{{ email.sender }}</div>
+      <div class="subject">{{ email.subject }}</div>
+    </div>
+  </div>
+</div>

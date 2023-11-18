@@ -1,0 +1,86 @@
+/* app.component.css */
+
+.mat-toolbar {
+  z-index: 2; /* Make sure the toolbar is on top */
+}
+
+.main-container {
+  display: flex;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.gmail-sidebar {
+  z-index: 1; /* Ensure the sidebar is behind the toolbar */
+}
+
+/* Additional styles for layout and spacing as needed */
+.gmail-logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.gmail-logo-img {
+  width: 20px;
+  /* Adjust the size as needed */
+  height: 20px;
+  margin-right: 8px;
+}
+
+
+
+.gmail-logo-text {
+  font-size: 20px;
+  color: rgb(68, 62, 62);
+}
+
+.mat-toolbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #dfedfd;
+  /* Gmail color */
+  color: rgb(68, 62, 62);
+  height: 56px;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 4px;
+  margin-left: 16px;
+}
+
+.search-icon {
+  color: #70757a;
+}
+
+.search-box input {
+  border: none;
+  outline: none;
+  margin-left: 8px;
+  width: 600px;
+}
+
+.nav-icons button {
+  margin-left: 8px;
+}
+
+/* app.component.css */
+
+.main-container {
+  display: flex;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 300px;
+  /* Add padding or adjust as needed */
+}
+
+/* Additional styles for layout and spacing as needed */

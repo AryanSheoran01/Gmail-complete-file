@@ -1,0 +1,61 @@
+/* mainbody.component.css */
+
+.main-body {
+  display: flex;
+
+  flex-direction: column;
+  z-index: 2;
+  float: right;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #dfedfd; /* Navbar background color */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  float: right;
+}
+
+.navbar-icons button {
+  margin-right: 8px;
+}
+
+.mail-count {
+  font-size: 14px;
+  margin-right: 20px;
+}
+
+.navbar-options button {
+  margin-left: 8px;
+}
+
+.email-list {
+  overflow-y: auto;
+  padding: 10px;
+  flex-grow: 1;
+}
+
+.email-item {
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #dfe1e5;
+}
+
+.email-item:hover {
+  background-color: #f1f1f1;
+}
+
+.sender {
+  font-weight: bold;
+}
+
+.subject {
+  color: #333;
+}
+.email-list {
+  overflow-y: auto; /* Add this to enable vertical scrolling */
+  padding: 10px;
+  flex-grow: 1;
+}

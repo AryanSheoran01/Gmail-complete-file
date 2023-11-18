@@ -1,0 +1,54 @@
+/* sidenav.component.css */
+
+.gmail-sidebar {
+  z-index: 0; /* Ensure the sidebar is behind the toolbar */
+  /* Existing styles */
+}
+
+.gmail-sidebar {
+    width: 240px;
+    background-color: #dfedfd;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding-top: 16px;
+    padding-bottom: 16px;
+    position: fixed;
+    height: 100%;
+    overflow-y: auto;
+  }
+  
+  .sidebar-section {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    color: #181716;
+  }
+  
+  .sidebar-section:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .sidebar-section mat-icon {
+    margin-right: 11px;
+    font-size: 24px;
+  }
+  
+  .compose-button {
+    padding: 10px;
+  }
+  
+  .compose-button button {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    color: #070606;
+    background-color: #9fc2ec;
+    border-radius: 20px;
+  }
+  
+  .bottom-section {
+    border-top: 1px solid #dfe1e5;
+    margin-top: auto;
+    padding-top: 16px;
+  }
+ 
